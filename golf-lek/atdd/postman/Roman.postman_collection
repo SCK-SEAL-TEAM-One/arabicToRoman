@@ -1,0 +1,529 @@
+{
+	"info": {
+		"_postman_id": "e1a8d13d-4ef4-4d23-bfd5-41afa25e52eb",
+		"name": "arabicToRoman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "roman number 1 shold be I",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c018c3dc-5622-40e2-92b8-9406d94e11b8",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be I\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"I\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 2 shold be II",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1d7d9dd0-4c46-41ef-8d1f-607a134d603e",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be II\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"II\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 4 shold be IV",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1048a563-010e-4316-aa73-b9559b457f03",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be IV\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"IV\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 5 shold be V",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "04052121-af38-4fb7-aa5e-f98334ac8554",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be V\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"V\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=5",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 6 shold be VI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d0abacba-5c11-45e5-b171-b2ea66264619",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be VI\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"VI\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=6",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 9 shold be IX",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b02853e4-eeb3-4b6d-9d12-ffd136925a69",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be IX\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"IX\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=9",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 10 shold be X",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "338d5b79-1af0-4d07-8950-dd1a8264e3a3",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be X\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"X\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=10",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 11 shold be XI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4625a46f-228d-431a-9751-949b5c864310",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be XI\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XI\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=11",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 49 shold be XLIX",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a3fb28da-a32f-4a74-825b-6943ac6e81e6",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be XLIX\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XLIX\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=49",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "49"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 50 shold be L",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "af5e2521-be3f-400d-a7c2-fc4e9cce5fdf",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be L\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"L\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=50",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 51 shold be LI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "876fd07c-e669-4bb8-a1ac-956a14a2ea22",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be LI\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"LI\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=51",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "51"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 99 shold be XCIX",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "196296ce-e898-4287-8fbc-d35415c67e3f",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be XCIX\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XCIX\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=99",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "99"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roman number 100 shold be C",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3520c43c-1169-4cbb-804d-5fdaf20843bb",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Roman shold be C\", function () {",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"C\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/convertToRomanNumber?number=100",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

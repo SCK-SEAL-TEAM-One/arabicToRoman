@@ -1,0 +1,136 @@
+{
+	"info": {
+		"name": "romannumber",
+		"_postman_id": "c177e062-dccf-f813-4f21-e194e5ec3b41",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "convertToRomanNumber",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "649e8a9c-1f96-442f-b5d9-d2ca812bab6d",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Input Number 1 Should Be I \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"I\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 2 Should Be II \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"II\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 4 Should Be IV \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"IV\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 5 Should Be V \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"V\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 6 Should Be VI \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"VI\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 9 Should Be IX \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"IX\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 10 Should Be X \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"X\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 11 Should Be XI \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XI\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 49 Should Be XLIX \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XLIX\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 50 Should Be L \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"L\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 51 Should Be LI \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"LI\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 99 Should Be XCIX \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"XCIX\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Input Number 100 Should Be C \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"C\");",
+							"});",
+							"",
+							"pm.test(\"Input Number 101 Should Be CI \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.romanNumber).to.eql(\"CI\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/convertToRomanNumber?number=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convertToRomanNumber"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

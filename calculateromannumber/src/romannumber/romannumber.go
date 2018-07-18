@@ -1,6 +1,6 @@
 package romannumber
 
-func convertToRomanNumber(number int) string {
+func ConvertToRomanNumber(number int) string {
 	//	valueRomanNumber := []int{100, 90, 50, 40, 30, 9, 5, 4, 1}
 	roman := make(map[int]string)
 	roman[1] = "I"

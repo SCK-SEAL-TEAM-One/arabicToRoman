@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 	"net/http"
+
+	"./api"
 )
 
 func main() {
-	http.HandleFunc("/convertToRomanNumber", func(w http.ResponseWriter, r *http.Request) {
-
-	})
+	http.HandleFunc("/convertToRomanNumber", api.NumberToRomanNumberHandler)
 
 	log.Fatal(http.ListenAndServe(":3000", nil))
 }

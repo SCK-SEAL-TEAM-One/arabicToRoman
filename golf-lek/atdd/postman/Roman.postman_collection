@@ -107,7 +107,7 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "localhost:3000/convertToRomanNumber?number=1",
+					"raw": "localhost:3000/convertToRomanNumber?number=4",
 					"host": [
 						"localhost"
 					],
@@ -118,7 +118,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "1"
+							"value": "4"
 						}
 					]
 				}
